@@ -1,0 +1,12 @@
+{
+  "projects": [
+    {
+      "title": "Carousel", 
+      "bullets": ["My capstone project for Flatiron School", "A photo organization app for pre-digital photos", "Includes a responsive timeline"],
+      "technologies": ["React", "Ruby on Rails"],
+      "image": "demo2.png",
+      "github": "https://github.com/itsagift/scrapbook",
+      "timestamp": "6/24/22"
+    }
+  ]
+}
