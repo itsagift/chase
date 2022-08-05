@@ -3,9 +3,7 @@ function ProjectEntry({project, index}){
   console.log(project)
   const date = new Date(project.timestamp).toLocaleDateString('en-us', { year:"numeric", month:"short"});
 return(
-  <div className='project-entry' style={{
-    flexDirection: index % 2 === 0 ? 'row-reverse' : undefined,
-  }}>
+  <div className='project-entry' >
     <div className='project-entry-image'><img className='project-entry-img' src={project.image.childImageSharp.fluid.src}/></div>
     
     <div className='project-entry-text'>
