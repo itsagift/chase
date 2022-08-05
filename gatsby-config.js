@@ -11,8 +11,9 @@ module.exports = {
   plugins: [
     `gatsby-plugin-provide-react`,
     'gatsby-transformer-json',
-    'gatsby-transformer-sharp', 
-    'gatsby-plugin-sharp',
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-github-api`,
@@ -44,6 +45,15 @@ module.exports = {
         name: `content`,
         path: `src/content`,
       },
+    },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Archivo', 'Tenor Sans']
+        }
+      }
     }
+    
   ],
 }
