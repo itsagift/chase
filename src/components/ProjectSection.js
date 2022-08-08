@@ -18,6 +18,7 @@ function ProjectSection(){
         github
         technologies
         title
+        demo
         timestamp
       }
     }

@@ -228,7 +228,10 @@ h1, h2, h3, h4{
   padding-bottom: 20px;
   list-style: none;
 }
-.project-text-tech{
+.project-text-link{
+  font-weight: bold;
+  font-family: var(--header-font);
+  font-size: 1.125em;
   margin-right: 10px;
   padding: 5px;
   border-bottom: 2px solid var(--link-color-light);
@@ -236,6 +239,10 @@ h1, h2, h3, h4{
   border-top: 1px solid var(--link-color-light);
   border-right: 1px solid var(--link-color-light);
   background-color: var(--link-color-lightest);
+}
+.project-text-link a{
+  text-decoration: none;
+  color: var(--link-color);
 }
 .blog-list-post{
   width: 75%;

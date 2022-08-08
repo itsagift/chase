@@ -22,13 +22,8 @@ return(
           }
         </ul>
         <ul className="project-text-techs">
-        {
-          project.technologies.map((technology)=> {
-            return(
-              <li className="project-text-tech">{technology}</li>
-            )
-          })
-        }
+          <li className="project-text-link"><a href={project.github}>Github Repository</a></li>
+          <li className="project-text-link"><a href={project.demo}>Demo</a></li>
         </ul>
       </div>
     </div>
