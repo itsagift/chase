@@ -1,4 +1,5 @@
 import ReactMarkdown from "react-markdown";
+import ProjectSection from "./ProjectSection";
 function ProjectEntry({project, index}){
   console.log(project)
   const date = new Date(project.timestamp).toLocaleDateString('en-us', { year:"numeric", month:"short"});

@@ -2,12 +2,21 @@
   "projects": [
     {
       "title": "Carousel", 
-      "bullets": ["My capstone project for Flatiron School", "A photo organization app for pre-digital photos", "Includes a responsive timeline"],
+      "bullets": ["My capstone project for Flatiron School", "A photo organization app for pre-digital photos", "Focused on UX/UI", "Includes backend/image hosting capabilities"],
       "technologies": ["React", "Ruby on Rails"],
       "image": "demo2.png",
       "github": "https://github.com/itsagift/scrapbook",
       "demo": "https://www.linkedin.com/feed/update/urn:li:ugcPost:6958175119349358592?utm_source=linkedin_share&utm_medium=member_desktop_share&utm_content=post",
       "timestamp": "6/24/22"
+    },
+    {
+      "title": "Planets", 
+      "bullets": ["Completed for the Frontend Mentor Challenge", "A responsive, informative static website", "Built from a Figma wireframe"],
+      "technologies": ["React"],
+      "image": "demo3.png",
+      "github": "https://github.com/itsagift/planetsite",
+      "demo": "https://naughty-mestorf-fbc929.netlify.app/",
+      "timestamp": "8/3/21"
     }
   ]
 }
