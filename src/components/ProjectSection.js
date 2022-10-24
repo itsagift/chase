@@ -26,7 +26,7 @@ function ProjectSection(){
   const projects = data.contentJson.projects
   console.log(projects)
   return(
-    <section className='project-section'>
+    <section className='project-section' id="projects">
       <h3 className='section-title'>Projects</h3>
       {
         projects.map((project, index)=> {

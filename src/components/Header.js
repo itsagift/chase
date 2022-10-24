@@ -11,7 +11,7 @@ return(
       <Link to="/blog">
         Blog
       </Link>
-      <Link to="#about">
+      <Link to="/#projects">
         Projects
       </Link>
     </nav>
