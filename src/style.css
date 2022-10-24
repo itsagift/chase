@@ -20,8 +20,7 @@
   --accent: #685044;
   --accent-transparent: rgba(104, 80, 68, 0.4);
   --accent2: #b8cbde;
-  --body-font: 'Tenor Sans';
-  --header-font: 'Archivo';
+  --header-font: "Open Sans";
   box-sizing: border-box;
 }
 
@@ -44,10 +43,10 @@ body{
   margin: 0;
   padding: 0;
   
-  font-family: var(--body-font);
+  font-family: "Open Sans", sans-serif;
 }
 h1, h2, h3, h4{
-  font-family: var(--header-font);
+  font-family: "Open Sans";
   
 }
 .container{
@@ -66,7 +65,7 @@ h1, h2, h3, h4{
 .header-title{
   font-size: 2.5em;
  
-  font-family: var(--header-font)
+  font-family: "Open Sans"
 }
 
 .header-links{
@@ -138,7 +137,7 @@ h1, h2, h3, h4{
   
   flex-basis: 60%;
   justify-self: flex-end;
-  font-family: var(--header-font);
+  font-family: "Open Sans";
   
 }
 .hero-title{
@@ -203,13 +202,13 @@ h1, h2, h3, h4{
 .project-text-date{
   font-size: 1em;
   font-weight: 600;
-  font-family: var(--header-font);
+  font-family: "Open Sans";
 }
 
 .project-text-title{
   font-size: 1.5em;
   font-weight: 600;
-  font-family: var(--header-font);
+  font-family: "Open Sans";
 }
 
 .project-text-description{
@@ -227,7 +226,7 @@ h1, h2, h3, h4{
 .project-text-link a{
   text-decoration: none;
   color: var(--link-color);
-  font-family: var(--header-font);
+  font-family: "Open Sans";
   font-size: 1.125em;
   padding: 5px;
   background-color: var(--background-color);
@@ -264,7 +263,7 @@ h1, h2, h3, h4{
 }
 .blog-list-date{
   text-transform: uppercase;
-  font-family: var(--header-font);
+  font-family: "Open Sans";
   font-size: 1em;
   font-weight: 700;
 }
