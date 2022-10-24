@@ -242,13 +242,20 @@ h1, h2, h3, h4{
   color: var(--text-color);
 }
 .blog-list-post{
-  width: 75%;
-  border: 1px solid var(--accent);
+  width: 100%;
+  border: 1px solid #ccc;
   padding: 20px;
+  transition: 0.4s;
 }
 .blog-list-post a{
   text-decoration: none;
   color: var(--link-color)
+}
+
+.blog-list-post:hover{
+  border-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
 }
 .blog-list-title{
   padding: 0;
@@ -327,6 +334,4 @@ h1, h2, h3, h4{
   .hero-text{
     font-size: 2.5em;
   }
-  
-  
 }
