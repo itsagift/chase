@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 function Header(){
 return(
   <header className='header'>
-    <h1 className='header-title'>Chase Reynolds</h1>
+    <h1 className='header-title'>Chase Reynolds // </h1>
     <nav className='header-links'>
       <Link to="/">
         Home

@@ -9,6 +9,13 @@
   --accent2: #eee;
   box-sizing: border-box;
 } */
+@font-face {
+  font-family: 'Aldrich';
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+  src: url(/fonts/aldrich-v17-latin/aldrich-v17-latin-regular.woff2) format("woff2");
+}
 
 :root{
   --background-color: #ECE2D0;
@@ -20,7 +27,8 @@
   --accent: #685044;
   --accent-transparent: rgba(104, 80, 68, 0.4);
   --accent2: #b8cbde;
-  --header-font: "Helvetica";;
+  --header-font: "Helvetica";
+  --accent-font: "Aldrich";
   box-sizing: border-box;
 }
 
@@ -43,20 +51,14 @@ body{
   margin: 0;
   padding: 0;
   
-  font-family: "Helvetica", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
 }
 h1, h2, h3, h4{
-  font-family: "Helvetica";
+  font-family: "Aldrich";
   
 }
 
-@font-face {
-  font-family: 'Aldrich';
-  font-weight: 400;
-  font-display: swap;
-  font-style: normal;
-  src: url(/fonts/aldrich-v17-latin/aldrich-v17-latin-regular.woff2) format("woff2");
-}
+
 
 .container{
   padding: 0 15%;
@@ -79,8 +81,7 @@ h1, h2, h3, h4{
 
 .header-links{
   font-size: 1.2em;
-  background-color: #543fd7;
-  
+  margin-left: 30px;
 }
 
 .header-links a {
@@ -130,7 +131,8 @@ h1, h2, h3, h4{
   cursor: pointer;
 }
 .blog-section-entry h2{
-  color: var(--link-color)
+  color: var(--link-color);
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 
@@ -191,6 +193,8 @@ h1, h2, h3, h4{
   max-width: 900px;
   margin-bottom: 10px;
   align-items: center;
+  
+  height: 300px;
 }
 
 .project-entry-image img{
@@ -270,6 +274,7 @@ h1, h2, h3, h4{
 .blog-list-title{
   padding: 0;
   margin: 0 0 30px 0;
+  font-family: "Helvetica Neue", sans-serif;
 }
 .blog-list-excerpt p::after{
   content: '...';
@@ -359,7 +364,7 @@ h1, h2, h3, h4{
 @media only screen and (min-width: 901px) {
   .project-entry-image img{
     max-width: 400px;
-    height: auto;
+    height: 100%;
     margin-right: 30px;
   }
 }
