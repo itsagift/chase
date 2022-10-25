@@ -1,2 +1,2 @@
 import "./src/style.css"
-import "@fontsource/open-sans"
+// import "@fontsource/open-sans"
