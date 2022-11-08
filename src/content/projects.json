@@ -17,6 +17,15 @@
       "github": "https://github.com/itsagift/planetsite",
       "demo": "https://naughty-mestorf-fbc929.netlify.app/",
       "timestamp": "8/3/21"
+    },
+    {
+      "title": "Buffy Calculator", 
+      "bullets": ["Personal project for friends", "An ode to my fandom interests", "Calculates closest episode to someone's birthday"],
+      "technologies": ["Javascript"],
+      "image": "demo4.png",
+      "github": "https://github.com/itsagift/buffybday",
+      "demo": "https://buffycalc.com/",
+      "timestamp": "7/23/21"
     }
   ]
 }
