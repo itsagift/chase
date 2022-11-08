@@ -186,15 +186,10 @@ h1, h2, h3, h4{
 }
 
 .project-entry{
-  /* display: grid;
+  display: grid;
   grid-template-columns: 400px 1fr;
-  gap: 1rem; */
-  display: flex;
-  max-width: 900px;
-  margin-bottom: 10px;
-  align-items: center;
-  
-  height: 300px;
+  gap: 1rem;
+  margin-bottom: 30px;
 }
 
 .project-entry-image img{
@@ -345,8 +340,9 @@ h1, h2, h3, h4{
     flex-basis: 100%;
   }
   .project-entry{
-    flex-direction: column;
-    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
   }
   .project-entry-image{
     max-width: 100%;
