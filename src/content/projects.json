@@ -10,6 +10,15 @@
       "timestamp": "6/24/22"
     },
     {
+      "title": "GutenbergSearch", 
+      "bullets": ["My Phase 1 project for Flatiron School", "A simple app displaying the Project Gutenberg API, sorted by genre", "Focused on design", "Includes custom color palettes"],
+      "technologies": ["HTML", "CSS"],
+      "image": "demo5.png",
+      "github": "https://github.com/itsagift/gutenbergsearch",
+      "demo": "https://itsagift.github.io/gutenbergsearch/",
+      "timestamp": "4/1/22"
+    },
+    {
       "title": "Planets", 
       "bullets": ["Completed for the Frontend Mentor Challenge", "A responsive, informative static website", "Built from a Figma wireframe"],
       "technologies": ["React"],
