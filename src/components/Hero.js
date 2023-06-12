@@ -18,7 +18,7 @@ return(
       />
     </div>
     <div className="hero-text">
-      <div className='hero-line'>Frontend developer based in NYC.</div>
+      <div className='hero-line'>Designer & developer based in NYC.</div>
     </div>
   </section>
 )
