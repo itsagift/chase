@@ -25,6 +25,7 @@
     "gatsby-omni-font-loader": "^2.0.2",
     "gatsby-plugin-excerpts": "^1.1.0",
     "gatsby-plugin-image": "^2.18.1",
+    "gatsby-plugin-netlify": "^5.1.1",
     "gatsby-plugin-provide-react": "^1.0.2",
     "gatsby-plugin-react-helmet": "^5.18.0",
     "gatsby-plugin-sharp": "^4.18.1",
