@@ -1,20 +1,12 @@
 <center>
 <h1>Chase Reynolds</h1>
-<p>Website very much in progress.</p>
-<p>In the meantime, please contact me to discuss tutoring/classes:</p>
-<form name="contact" netlify>
-  <p>
-    <label>Name <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Email <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Message for me!<br> </label>
-    <textarea name="message"></textarea>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+<div>
+<a href="https://www.github.com/itsagift">github</a> / <a href="https://scratch.mit.edu/users/gawooga/">scratch</a>
+<p>Experienced coding educator. </p>
+<p>Currently enrolled in the Master's of Computer Science Education program, Hunter College.</p> 
+Website very much under construction.
+
+<p>While I get my site up and running, please forgive the appearance and <b>feel free to contact me to discuss tutoring/classes:</b></p>
+</div>
+<div data-tf-live="01JFC9H9VCXSHADESWT3SGTT8R"></div><script src="//embed.typeform.com/next/embed.js"></script>
 </center>
